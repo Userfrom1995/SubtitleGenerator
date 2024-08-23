@@ -55,8 +55,8 @@ def main(video_file, output_srt, language, target_language=None):
     print(f"Subtitle file '{output_srt}' generated successfully.")
 
 if __name__ == "__main__":
-    video_file = "Humsafar (Full Video)  ｜ Varun & Alia Bhatt ｜ Akhil Sachdeva ｜ ＂Badrinath Ki Dulhania＂.mp4"  # Replace with your video file path
+    video_file = "a.mkv"  # Replace with your video file path
     output_srt = "subtitles.srt"
-    language = "hi"  # Specify the language code of the video (e.g., "hi" for Hindi)
-    target_language = None  # Set to None for subtitles in the original language, or specify a different language code
+    language = "ja"  # Specify the language code of the video (e.g., "hi" for Hindi)
+    target_language = "en"  # Set to None for subtitles in the original language, or specify a different language code
     main(video_file, output_srt, language, target_language)

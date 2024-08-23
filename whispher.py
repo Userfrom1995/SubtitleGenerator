@@ -27,6 +27,6 @@ pipe = pipeline(
 dataset = load_dataset("distil-whisper/librispeech_long", "clean", split="validation")
 sample = dataset[0]["audio"]
 
-result = pipe("a.mp4", generate_kwargs={"language": "hindi"})
+result = pipe("a.mkv", generate_kwargs={"language": "japenese"})
 
 print(result["text"])
