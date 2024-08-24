@@ -56,7 +56,7 @@ def main(video_file, output_srt, language, target_language=None):
 
 if __name__ == "__main__":
     video_file = "a.mkv"  # Replace with your video file path
-    output_srt = "subtitles.srt"
+    output_srt = "subtitlestrans.srt"
     language = "ja"  # Specify the language code of the video (e.g., "hi" for Hindi)
     target_language = "en"  # Set to None for subtitles in the original language, or specify a different language code
     main(video_file, output_srt, language, target_language)
